@@ -40,7 +40,7 @@ This framework is designed exclusively for professional penetration testing and 
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/nemesis-nexus.git
+git clone https://github.com/xiah-666/nemesis-nexus.git
 cd nemesis-nexus
 ```
 
