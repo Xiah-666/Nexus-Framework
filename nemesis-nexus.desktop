@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=NEMESIS-NEXUS
+Comment=Advanced Multi-Agent AI Cybersecurity Framework
+GenericName=Cybersecurity Platform
+Exec=/home/xiah/tools/ai-ml/pray/launch_nemesis.sh --auto
+Path=/home/xiah/tools/ai-ml/pray/
+Icon=security
+Terminal=true
+Type=Application
+Categories=Development;Security;Network;
+Keywords=security;penetration;testing;ai;cybersecurity;red team;
+StartupNotify=true
+StartupWMClass=nemesis-nexus
+MimeType=application/x-nemesis-project;
+
+[Desktop Action CLI]
+Name=CLI Interface
+Exec=/home/xiah/tools/ai-ml/pray/launch_nemesis.sh
+Icon=terminal
+
+[Desktop Action WebUI]
+Name=Web Interface
+Exec=/home/xiah/tools/ai-ml/pray/launch_nemesis.sh
+Icon=web-browser
+
+Actions=CLI;WebUI;

@@ -1,0 +1,43 @@
+type: map
+mapping:
+  version:
+    type: str
+  ollama:
+    type: map
+    mapping:
+      host: {type: str}
+      default_model: {type: str}
+      fallback_model: {type: str}
+      embedding_model: {type: str}
+      temperature: {type: float}
+      max_tokens: {type: int}
+      current_model: {type: str, required: false}
+      model_preferences: {type: map, required: false}
+  tools:
+    type: map
+    mapping:
+      max_concurrent_scans: {type: int}
+      nmap_enabled: {type: bool, required: false}
+      scapy_enabled: {type: bool, required: false}
+  security:
+    type: map
+    mapping:
+      authorized_testing_only: {type: bool}
+      log_all_activities: {type: bool}
+  model_switcher:
+    type: map
+    required: false
+    mapping:
+      auto_download_essential: {type: bool, required: false}
+      usage_tracking: {type: bool, required: false}
+      performance_monitoring: {type: bool, required: false}
+      model_recommendations: {type: bool, required: false}
+  aliases:
+    type: map
+    required: false
+    mapping:
+      payloads: {type: map, required: false}
+      environments: {type: map, required: false}
+      servers: {type: map, required: false}
+      targets: {type: map, required: false}
+

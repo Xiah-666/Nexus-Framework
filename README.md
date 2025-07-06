@@ -79,6 +79,15 @@ ollama pull nomic-embed-text
 ### Launch the Framework
 ```bash
 source venv/bin/activate
+streamlit run nemesis_web_ui.py
+```
+
+**Alternative launch methods:**
+```bash
+# Using the launcher script (auto-detects environment)
+./launch_nemesis.sh
+
+# Direct Python execution (GUI mode)
 python3 pray.py
 ```
 
